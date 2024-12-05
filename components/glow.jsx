@@ -8,7 +8,7 @@ const GlowEffect = () => {
   useEffect(() => {
     const handleMouseMove = (e) => {
       const container = containerRef.current;
-      
+
       let glowElement = container.querySelector('.mouse-glow');
       if (!glowElement) {
         glowElement = document.createElement('div');
@@ -31,7 +31,8 @@ const GlowEffect = () => {
   }, []);
 
   return (
-    <div ref={containerRef} className="md:visible">
+    <>
+      <div ref={containerRef} className="invisible md:visible"/>
       <style jsx global>{`
         .mouse-glow {
           position: fixed;
@@ -44,7 +45,7 @@ const GlowEffect = () => {
           z-index: -10;
         }
       `}</style>
-    </div>
+    </>
   );
 };
 
