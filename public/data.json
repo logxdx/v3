@@ -1,11 +1,11 @@
 {
     "general": {
         "name": "Karan Burnwal",
-        "headline": "ML | DL | Python Dev.",
+        "headline": "Machine Learning | Data Science | Agentic AI",
         "about": [
-            "I work with Python, focusing on machine learning, using PyTorch, and integrating large language models (LLMs) with APIs. Problem-solving and building effective solutions are at the core of what I do",
-            "Beyond the screen, you'll often find me on the badminton court, channeling my competitive spirit and love for the game",
-            "Whether it's fine-tuning a model, debugging code, or perfecting my smash, I'm always up for a challenge!"
+            "I design and deploy end-to-end AI solutions—from real-time, voice-enabled agentic assistants to machine learning & data pipelines.",
+            "My work leverages open-source technology & frameworks like Streamlit, HF, Pytorch and retrieval-augmented architectures.",
+            "Developing innovative solutions that enhance user experience and drive efficiency."
         ],
         "socials": {
             "email": "iamkaran158@gmail.com",
@@ -22,16 +22,16 @@
             "stars": ""
         },
        {
-            "name": "SP2 BI-{GRU-LSTM}",
+            "name": "Stock Price Prediction",
             "framework": "PyTorch",
-            "description": "A Hybrid Bi{GRU-LSTM} Neural Network for multivariate time-series prediction",
+            "description": "A Hybrid BiGRU-LSTM Neural Network for multivariate time-series prediction",
             "href": "https://github.com/logxdx/SP2_BI-GRU_LSTM",
             "stars": ""
        },
        {
-        "name": "QnA Document Tool",
+        "name": "Primitive RAG",
         "framework": "C++",
-        "description": "A tool for extracting question-and-answer pairs from documents using NLP techniques. Course project for COL106",
+        "description": "A tool for extracting question-and-answer pairs from documents using NLP techniques. Course project for DSA",
         "href": "https://github.com/logxdx/QnA_DocumentTool",
         "stars": ""
         } 
@@ -44,7 +44,7 @@
             "href": "https://home.iitd.ac.in/",
             "startDate": "2022", 
             "endDate": "Present", 
-            "description": ["CGPA: 7.5", "Hands-on experiment with analog circuits, motor-drives, transmission lines and more..."]
+            "description": ["CGPA: 7.52", "Working on embedded systems and machine learning."]
         },
         {
             "subject": "10 + 2",
@@ -53,7 +53,7 @@
             "href": "",
             "startDate": "2012", 
             "endDate": "2022", 
-            "description": ["GPA: 9.6.", "Excelled in acads and coding competitions."]
+            "description": ["GPA: 9.6", "Excelled in acads and coding competitions."]
         }
     ]
 }

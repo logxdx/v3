@@ -32,7 +32,7 @@ module.exports = {
       },
       "on-background": "#ffffff",
       /* */
-      /* :: Color Palette: Green and Dark Blue 
+      /* :: Color Palette: Green and Dark Blue *
       'primary': {
         100: '#0b7a75',
         200: '#378883',
@@ -50,44 +50,6 @@ module.exports = {
         600: '#89869c'
       },
       'on-background': '#ffffff',
-      /* */
-      /* :: Color Palette: Deep Teal and Muted Coral
-      'primary': {
-        100: '#2d6a4f',
-        200: '#3f8b6b',
-        300: '#5aa687',
-        400: '#74c2a3',
-        500: '#8ed6ba',
-        600: '#a8ead1'
-      },
-      'surface': {
-        100: '#8b4f3d',
-        200: '#a16854',
-        300: '#b7816c',
-        400: '#cd9b84',
-        500: '#e3b59c',
-        600: '#f9cfb4'
-      },
-      'on-background': '#f5e6dc'
-      /* */
-      /* :: Color Palette: Lavender and Muted Burgundy
-      'primary': {
-        100: '#6a5acd',
-        200: '#8170d8',
-        300: '#9886e3',
-        400: '#ae9cee',
-        500: '#c4b2f9',
-        600: '#dac8ff'
-      },
-      'surface': {
-        100: '#5d3f51',
-        200: '#745569',
-        300: '#8c6b81',
-        400: '#a48199',
-        500: '#bc97b1',
-        600: '#d4adc9'
-      },
-      'on-background': '#f0e0ea'
       /* */
     },
     extend: {

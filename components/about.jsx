@@ -2,11 +2,11 @@ import React from "react";
 
 const About = (props) => {
     return (
-        <div data-section id='about' className='mb-16 md:mb-24 lg:mb-40 group'>
-            <h2 className='mb-8 visible lg:invisible font-xl tracking-widest'>About</h2>
-            <div className='text-base lg:text-lg lg:font-medium brightness-75'>
+        <div data-section id='about' className='mb-48 md:mb-48 lg:mb-80 group lg:mt-24'>
+            <h2 className='mb-8 visible lg:invisible font-xl tracking-widest uppercase'>About</h2>
+            <div className='text-base lg:text-lg lg:font-medium'>
                 {props.data.about.map(function(paragraph, index){
-                    return <div className='mb-4 brightness-75 md:max-w-md lg:max-w-md text-justify'>{paragraph}</div>
+                    return <div key={"paragraph_" + String(index)} className='mb-4 md:max-w-md lg:max-w-xl'>{paragraph}</div>
                 })}
             </div>
         </div>

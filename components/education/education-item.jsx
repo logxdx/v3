@@ -9,7 +9,7 @@ function EducationItem(props) {
                 <div className='text-primary-600 mb-2'>{props.university}</div>
                 <div className='text-surface-600'>
                 {props.description.map(function(paragraph, index){
-                    return <div>{paragraph}</div>
+                    return <div key={"paragraph_" + String(index)}>{paragraph}</div>
                 })}
             </div>
             </div>
