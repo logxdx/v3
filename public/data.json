@@ -3,9 +3,9 @@
         "name": "Karan Burnwal",
         "headline": "Machine Learning | Data Science | Agentic AI",
         "about": [
-            "I design and deploy end-to-end AI solutions—from real-time, voice-enabled agentic assistants to machine learning & data pipelines.",
-            "My work leverages open-source technology & frameworks like Streamlit, HF, Pytorch and retrieval-augmented architectures.",
-            "Developing innovative solutions that enhance user experience and drive efficiency."
+            "I design and deploy end-to-end AI solutions — from real-time, voice-enabled agentic assistants to machine learning & data pipelines.",
+            "My work leverages open-source technology & frameworks like Streamlit, HuggingFace, Pytorch and retrieval-augmented architectures.",
+            "I love developing innovative solutions that enhance user experience and drive efficiency."
         ],
         "socials": {
             "email": "iamkaran158@gmail.com",
