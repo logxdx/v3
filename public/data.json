@@ -1,11 +1,12 @@
 {
     "general": {
         "name": "Karan Burnwal",
-        "headline": "Machine Learning | Data Science | Agentic AI",
+        "headline": "Machine Learning | Computer Vision | Agentic AI",
         "about": [
-            "I design and deploy end-to-end AI solutions — from real-time, voice-enabled agentic assistants to machine learning & data pipelines.",
-            "My work leverages open-source technology & frameworks like Streamlit, HuggingFace, Pytorch and retrieval-augmented architectures.",
-            "I love developing innovative solutions that enhance user experience and drive efficiency."
+            "I engineer and deploy AI solutions - ranging from multimodal embeddings and real-time voice-interactive agents to intelligent document analysis.", 
+            "My work spans across domains including computer vision, natural language processing, and agentic AI, with impactful applications.", 
+            "I build on top of open-source technologies such as PyTorch, OpenCV, Streamlit, and HuggingFace, incorporating frameworks like CLIP, custom ResNet-like models, and retrieval-augmented pipelines.", 
+            "I am particularly driven by solving real-world problems through scalable, efficient, and user-centric AI solutions that improve productivity and decision-making."
         ],
         "socials": {
             "email": "iamkaran158@gmail.com",
@@ -15,10 +16,31 @@
     },
     "projects": [
         {
+        "name": "Bird Species Classification",
+        "framework": "PyTorch",
+        "description": "A CNN based approach featuring Residual connections for Bird Species Classification.",
+        "href": "https://github.com/logxdx/Bird-Species-Classification",
+        "stars": ""
+        },
+        {
+        "name": "Zeta DB",
+        "framework": "Python, OpenAI-CLIP",
+        "description": "A Python-based multimodal vector database designed to store and search for images and text using their semantic embeddings.",
+        "href": "https://github.com/logxdx/Zeta-DB",
+        "stars": ""
+        },
+        {
             "name": "ANOTAR",
-            "framework": "Python, Streamlit",
+            "framework": "Python, Streamlit, OpenAI, Gemini, Groq",
             "description": "Leverage the power of LLMs to convert PDFs/Images to Markdown Notes",
             "href": "https://github.com/logxdx/ANOTAR",
+            "stars": ""
+        },
+        {
+            "name": "Real-time Human Pose Estimation",
+            "framework": "Python, OpenCV, Mediapipe, Flask",
+            "description": "Perform real-time human pose estimation from a live webcam feed.",
+            "href": "https://github.com/logxdx/Computer-Vision/blob/main/live_pose_detection.py",
             "stars": ""
         },
        {
@@ -27,14 +49,7 @@
             "description": "A Hybrid BiGRU-LSTM Neural Network for multivariate time-series prediction",
             "href": "https://github.com/logxdx/SP2_BI-GRU_LSTM",
             "stars": ""
-       },
-       {
-        "name": "Primitive RAG",
-        "framework": "C++",
-        "description": "A tool for extracting question-and-answer pairs from documents using NLP techniques. Course project for DSA",
-        "href": "https://github.com/logxdx/QnA_DocumentTool",
-        "stars": ""
-        } 
+       }
     ],
     "education": [
         {
@@ -44,7 +59,7 @@
             "href": "https://home.iitd.ac.in/",
             "startDate": "2022", 
             "endDate": "Present", 
-            "description": ["CGPA: 7.52", "Working on embedded systems and machine learning."]
+            "description": ["Working on embedded systems and machine learning."]
         },
         {
             "subject": "10 + 2",
@@ -53,7 +68,7 @@
             "href": "",
             "startDate": "2012", 
             "endDate": "2022", 
-            "description": ["GPA: 9.6", "Excelled in acads and coding competitions."]
+            "description": ["Excelled in academics and coding competitions."]
         }
     ]
 }
