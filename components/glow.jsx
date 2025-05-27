@@ -37,9 +37,9 @@ const GlowEffect = () => {
         .mouse-glow {
           position: fixed;
           transform: translate(-50%, -50%);
-          width: 1000px;
+          width: 800px;
           aspect-ratio: 1;
-          background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 60%);
+          background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0) 60%);
           border-radius: 50%;
           pointer-events: none;
           z-index: -10;
