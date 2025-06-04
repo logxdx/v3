@@ -3,7 +3,7 @@
         "name": "Karan Burnwal",
         "headline": "Machine Learning | Computer Vision | Agentic AI",
         "about": [
-            "I engineer and deploy AI solutions - ranging from multimodal embeddings and real-time voice-interactive agents to intelligent document analysis.", 
+            "I engineer and deploy AI solutions - ranging from multimodal embeddings and real-time voice-interactive agents to intelligent document analysis systems.", 
             "My work spans across domains including computer vision, natural language processing, and agentic AI, with impactful applications.", 
             "I build on top of open-source technologies such as PyTorch, OpenCV, Streamlit, and HuggingFace, incorporating frameworks like CLIP, custom ResNet-like models, and retrieval-augmented pipelines.", 
             "I am particularly driven by solving real-world problems through scalable, efficient, and user-centric AI solutions that improve productivity and decision-making."

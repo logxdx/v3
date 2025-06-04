@@ -6,7 +6,7 @@ function EducationItem(props) {
             <div className='mr-2 text-surface-600 text-xs basis-1/4'>{props.startDate} {checkEndDate(props)}</div>
             <div className='basis-3/4'>
                 <div className='font-medium transition-all'>{props.subject} ({props.degree})</div>
-                <div className='text-primary-600 mb-2'>{props.university}</div>
+                <div className='text-primary-300 mb-2'>{props.university}</div>
                 <div className='text-surface-600'>
                 {props.description.map(function(paragraph, index){
                     return <div key={"paragraph_" + String(index)}>{paragraph}</div>

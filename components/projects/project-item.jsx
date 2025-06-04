@@ -13,7 +13,7 @@ function ProjectItem(props) {
                 </div>
             </div>
             <h1 className="mb-4 text-2xl subpixel-antialiased">{props.name}</h1>
-            <div className="text-primary-500 text-base">{props.description}</div>
+            <div className="text-primary-300 text-base">{props.description}</div>
         </a>
     )
 }
